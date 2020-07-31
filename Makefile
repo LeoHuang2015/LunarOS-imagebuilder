@@ -2,7 +2,7 @@ all: package
 
 FLAGS =
 ENVVAR = GOOS=linux GOARCH=amd64 CGO_ENABLED=0
-REGISTRY = pub.domeos.org/domeos
+REGISTRY = pub.lunaros.com/lunaros
 TAG = 0.5
 
 deps:

@@ -1,13 +1,13 @@
 package buildcontext
 
 import (
-	"fmt"
-	"imagebuilder/buildfile"
-	"strings"
-	"net/http"
-	"io/ioutil"
-	"time"
 	"encoding/base64"
+	"fmt"
+	"io/ioutil"
+	"lunarOS-imagebuilder/buildfile"
+	"net/http"
+	"strings"
+	"time"
 )
 
 var LocalCodePath string = "/code"

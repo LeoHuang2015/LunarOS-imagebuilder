@@ -1,9 +1,9 @@
 package test
 
 import (
-	"imagebuilder/build"
-	"testing"
+	"lunarOS-imagebuilder/build"
 	"os"
+	"testing"
 )
 
 

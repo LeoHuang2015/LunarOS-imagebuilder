@@ -1,20 +1,20 @@
 package build
 
 import (
-	"imagebuilder/buildcontext"
-	"imagebuilder/contect"
-	"net/http"
-	"fmt"
-	"encoding/json"
-	"os"
 	"bytes"
+	"encoding/json"
+	"fmt"
 	"io"
-	"mime/multipart"
 	"io/ioutil"
-	"time"
-	"strings"
+	"lunarOS-imagebuilder/buildcontext"
+	"lunarOS-imagebuilder/contect"
+	"mime/multipart"
+	"net/http"
+	"os"
 	"os/exec"
 	"strconv"
+	"strings"
+	"time"
 )
 
 var ScriptFile string = "/root/exec.sh"

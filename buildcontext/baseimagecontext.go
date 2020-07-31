@@ -1,12 +1,12 @@
 package buildcontext
 
 import (
-	"imagebuilder/buildfile"
-	"fmt"
 	"encoding/json"
-	"os"
-	"net/http"
+	"fmt"
 	"io/ioutil"
+	"lunarOS-imagebuilder/buildfile"
+	"net/http"
+	"os"
 	"strings"
 )
 

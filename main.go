@@ -1,8 +1,8 @@
 package main
 
 import (
-    "imagebuilder/build"
     "os"
+    "lunarOS-imagebuilder/build"
 )
 
 func main() {
